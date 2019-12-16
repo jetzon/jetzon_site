@@ -1,0 +1,3 @@
+[submodule "jetzon.github.io"]
+	path = jetzon.github.io
+	url = git@github.com:jetzon/jetzon.github.io.git
