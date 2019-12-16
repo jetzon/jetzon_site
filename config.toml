@@ -1,5 +1,6 @@
 baseURL = "https://jetzon.github.io/"
 title = "JETZON"
+publishDir = "jetzon.github.io"
 
 enableRobotsTXT = true
 
