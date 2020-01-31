@@ -1,0 +1,36 @@
+# A command line solution:
+
+# 1) Export your SVG to PNG with InkScape
+
+# 2) Resize this PNG image to the sizes you want with ImageMagick:
+
+magick convert master.png -resize 16x16 favicon-16x16.png
+magick convert master.png -resize 32x32 favicon-32x32.png
+
+magick convert master.png -resize 36x36 android-36x36.png
+magick convert master.png -resize 48x48 android-48x48.png
+magick convert master.png -resize 72x72 android-72x72.png
+magick convert master.png -resize 96x96 android-96x96.png
+magick convert master.png -resize 144x144 android-144x144.png
+magick convert master.png -resize 192x192 android-192x192.png
+
+magick convert master.png -resize 180x180 apple-touch-icon-180x180.png
+
+magick convert master.png -resize 256x256 favicon-256.png
+magick convert master.png -resize 1024x1024 favicon-1024.png
+
+magick convert master.png -resize 192x192 pwa-192x192.png
+magick convert master.png -resize 512x512 pwa-512x512.png
+
+magick convert master.png -resize 70x70 tile70x70.png
+magick convert master.png -resize 150x150 tile150x150.png
+magick convert master.png -resize 310x310 tile310x310.png
+magick convert master.png -resize 310x150 tile310x150.png
+
+# 3) Convert the PNG images to ICO:
+
+magick convert favicon-16x16.png favicon-32x32.png android-36x36.png android-48x48.png android-72x72.png android-96x96.png android-144x144.png android-192x192.png apple-touch-icon-180x180.png favicon-256.png pwa-192x192.png pwa-512x512.png tile70x70.png tile150x150.png tile310x310.png tile310x150.png icon.ico
+
+# 4) Make sure your ICO contains everything:
+
+magick identify icon.ico
