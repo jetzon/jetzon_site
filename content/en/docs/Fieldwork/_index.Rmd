@@ -3,6 +3,8 @@ title: "JETZON Fieldwork"
 author: Sari Giering
 date: '2020-03-06'
 slug: jetzon-fieldwork
+description: >
+  Overview of JETZON fieldwork (past and planned)
 categories: []
 tags: []
 weight: 3
@@ -41,7 +43,8 @@ leafMap <- leaflet(data=fw, width = "100%") %>%
 leafMap
 ```
 <br>
-  
+
+Details of past and upcoming JETZON fieldwork:
 ```{r overview-table, echo=FALSE, warning=FALSE}
 overview <- fw
 
@@ -50,7 +53,7 @@ options(kableExtra.html.bsTable = TRUE)
 options(knitr.kable.NA = '_')
 
 overview %>%
-  kable(caption = "Overview of RESPIRE deployments", align=c("l","c","c","c","c","c","l")) %>%
+  kable(align=c("l","c","c","c","c","c","l")) %>%
   kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
   scroll_box(width = "100%", box_css = "border: 1px solid #FFFFFF;")
 ```
