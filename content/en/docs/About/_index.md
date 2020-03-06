@@ -2,11 +2,20 @@
 title: "About JETZON"
 linkTitle: "About"
 weight: 2
+
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+  params:
+    byline: "Graphic: Sari Giering"
 ---
 
 ## Joint Exploration of the Twilight Zone Ocean Network!
 
-*Copy-pasted from the home page. We probably want something more practical here. Though a nice description somewhere of the twilight zone and why we care could be nice.*
+{{< imgproc TZ_observations Resize "600x">}}
+State of the art for observing the twilight zone.
+{{< /imgproc >}}
+
 
 The ocean's Twilight Zone, the dimly led region extending from a few hundred meters depth to 1000 m, is still poorly understood from almost any perspective, whether physics, biochemistry or ecology. However, it contains possibly the world's largest and least exploited fish stock and is responsible for recycling roughly 80% of the organic material that enters the ocean's interior from productive surface waters. The former has drawn attention due to increasing demand for resources from a growing world population.There is therefore a pressing need to understand the consequences of perturbing this ecosystem.
 

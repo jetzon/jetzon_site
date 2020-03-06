@@ -1,0 +1,1104 @@
+---
+title: "JETZON Fieldwork"
+author: Sari Giering
+date: '2020-03-06'
+slug: jetzon-fieldwork
+categories: []
+tags: []
+weight: 3
+# description: Map and list of past deployments
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<link href="/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers/leaflet-providers.js"></script>
+<script src="/rmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<link href="/rmarkdown-libs/leaflet-markercluster/MarkerCluster.css" rel="stylesheet" />
+<link href="/rmarkdown-libs/leaflet-markercluster/MarkerCluster.Default.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.js"></script>
+<script src="/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.freezable.js"></script>
+<script src="/rmarkdown-libs/leaflet-markercluster/leaflet.markercluster.layersupport.js"></script>
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+<link href="/rmarkdown-libs/bsTable/bootstrapTable.min.css" rel="stylesheet" />
+
+
+<p>This map shows the approximate regions of all past and upcoming JETZON fieldwork. To see cruise details, click on a marker, and information about the programme, cruise and contact person will pop up. Cruises from the same programme will show up in the same colour. More details can be found in the table below.</p>
+<p>If you are planning cruises (even if not funded yet), please add details here (<a class="link" href="https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYysbQBi59quaIL-FRZzC4v4g/edit?usp=sharing" target="_blank">link</a>)
+or contact Adrian Martin. (Your cruise location will show up next time we render this page.)</p>
+<p><div id="htmlwidget-1" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.OceanBasemap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[-52.4,-18,50,-55,null,null,null,null,-55,null,null,null,null,null,null,null,null,null,null,null,null,null,49],[40.06,-11,-145,-90,null,null,null,null,-90,null,null,null,null,null,null,null,null,null,null,null,null,null,-16.5],10,null,null,{"interactive":true,"className":"","stroke":true,"color":["#1B9E77","#1B9E77","#7570B3","#D95F02","#E41A1C","#E41A1C","#E6AB02","#A6761D","#D95F02","#7570B3","#E41A1C","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#666666","#66A61E","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#E7298A"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#1B9E77","#1B9E77","#7570B3","#D95F02","#E41A1C","#E41A1C","#E6AB02","#A6761D","#D95F02","#7570B3","#E41A1C","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#666666","#66A61E","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#E6AB02","#E7298A"],"fillOpacity":0.2},{"showCoverageOnHover":true,"zoomToBoundsOnClick":false,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"disableClusteringAtZoom":5},null,["<b>COMICS (UK)<\/b><br/>Lead institute: NOC<br/>Contact: Richard Sanders (NORCE), Sari Giering (NOC)<br/>","<b>COMICS (UK)<\/b><br/>Lead institute: NOC<br/>Contact: Richard Sanders (NORCE), Sari Giering (NOC)<br/>","<b>EXPORTS (US)<\/b><br/>Lead institute: WHOI<br/>Contact: David Siegel (UCSB)<br/>","<b>CUSTARD (UK)<\/b><br/>Lead institute: NOC<br/>Contact: Adrian Martin (NOC)<br/>","<b>WHOI OTZ (US)<\/b><br/>Lead institute: WHOI<br/>Contact: Ken Buesseler (WHOI)<br/>","<b>WHOI OTZ (US)<\/b><br/>Lead institute: WHOI<br/>Contact: Ken Buesseler (WHOI)<br/>","<b>SUMMER (IS)<\/b><br/>Lead institute: MFRI<br/>Contact: NA<br/>","<b>TRATLEQ-1 (DE)<\/b><br/>Lead institute: GEOMAR<br/>Contact: Peter Brandt, Rainer Kiko (GEOMAR)<br/>","<b>CUSTARD (UK)<\/b><br/>Lead institute: NOC<br/>Contact: Adrian Martin (NOC)<br/>","<b>EXPORTS (US)<\/b><br/>Lead institute: WHOI<br/>Contact: David Siegel (UCSB)<br/>","<b>WHOI OTZ (US)<\/b><br/>Lead institute: WHOI<br/>Contact: Ken Buesseler (WHOI)<br/>","<b>SUMMER (FR)<\/b><br/>Lead institute: ICM<br/>Contact: NA<br/>","<b>SUMMER (FR)<\/b><br/>Lead institute: ICM<br/>Contact: NA<br/>","<b>SUMMER (PT)<\/b><br/>Lead institute: IMAR<br/>Contact: NA<br/>","<b>SUMMER (FR)<\/b><br/>Lead institute: IFREMER<br/>Contact: NA<br/>","<b>TRATLEQ-2 (DE)<\/b><br/>Lead institute: GEOMAR, LOV<br/>Contact: Peter Brandt, Rainer Kiko (GEOMAR)<br/>","<b>PICCOLO (UK)<\/b><br/>Lead institute: UEA / PML<br/>Contact: Karen Heywood (UEA)<br/>","<b>SUMMER (TR)<\/b><br/>Lead institute: METU<br/>Contact: NA<br/>","<b>SUMMER (ES)<\/b><br/>Lead institute: UPLGC<br/>Contact: NA<br/>","<b>SUMMER (NO)<\/b><br/>Lead institute: SINTEF<br/>Contact: NA<br/>","<b>SUMMER (ES)<\/b><br/>Lead institute: AZTI<br/>Contact: NA<br/>","<b>SUMMER (IS)<\/b><br/>Lead institute: HI<br/>Contact: NA<br/>","<b>PAP (UK)<\/b><br/>Lead institute: NOC<br/>Contact: NA<br/>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-55,50],"lng":[-145,40.06]}},"evals":[],"jsHooks":[]}</script>
+<br></p>
+<div style="border: 1px solid #FFFFFF;overflow-x: scroll; width:100%; ">
+<table class="table table-striped table-hover table-responsive" style="font-size: 11px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+<span id="tab:overview-table">Table 1: </span>Overview of RESPIRE deployments
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Year
+</th>
+<th style="text-align:center;">
+Dates
+</th>
+<th style="text-align:center;">
+Lat
+</th>
+<th style="text-align:center;">
+Long
+</th>
+<th style="text-align:center;">
+Programme
+</th>
+<th style="text-align:center;">
+Lead institute
+</th>
+<th style="text-align:left;">
+Country
+</th>
+<th style="text-align:left;">
+Vessel
+</th>
+<th style="text-align:center;">
+Cruise
+</th>
+<th style="text-align:center;">
+Funding
+</th>
+<th style="text-align:center;">
+Funded
+</th>
+<th style="text-align:center;">
+Area
+</th>
+<th style="text-align:center;">
+Scope
+</th>
+<th style="text-align:left;">
+Contact
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+2017
+</td>
+<td style="text-align:center;">
+Nov/Dec
+</td>
+<td style="text-align:center;">
+-52.4
+</td>
+<td style="text-align:center;">
+40.06
+</td>
+<td style="text-align:center;">
+COMICS
+</td>
+<td style="text-align:center;">
+NOC
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+RRS Discovery
+</td>
+<td style="text-align:center;">
+DY086
+</td>
+<td style="text-align:center;">
+NERC
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+South Georgia
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Richard Sanders (NORCE), Sari Giering (NOC)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2018
+</td>
+<td style="text-align:center;">
+May/Jun
+</td>
+<td style="text-align:center;">
+-18.0
+</td>
+<td style="text-align:center;">
+-11.00
+</td>
+<td style="text-align:center;">
+COMICS
+</td>
+<td style="text-align:center;">
+NOC
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+RRS Discovery
+</td>
+<td style="text-align:center;">
+DY090
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+Benguela Current
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Richard Sanders (NORCE), Sari Giering (NOC)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2018
+</td>
+<td style="text-align:center;">
+Aug/Sept
+</td>
+<td style="text-align:center;">
+50.0
+</td>
+<td style="text-align:center;">
+-145.00
+</td>
+<td style="text-align:center;">
+EXPORTS
+</td>
+<td style="text-align:center;">
+WHOI
+</td>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+Revelle/Ride
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NASA/NSF
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+NE Pacific - Station P
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+David Siegel (UCSB)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2018
+</td>
+<td style="text-align:center;">
+Nov/Dec
+</td>
+<td style="text-align:center;">
+-55.0
+</td>
+<td style="text-align:center;">
+-90.00
+</td>
+<td style="text-align:center;">
+CUSTARD
+</td>
+<td style="text-align:center;">
+NOC
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+RRS Discovery
+</td>
+<td style="text-align:center;">
+DY096
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Adrian Martin (NOC)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:center;">
+March
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+WHOI OTZ
+</td>
+<td style="text-align:center;">
+WHOI
+</td>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+Alucia
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+TED Audacious Project
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+N. Atlantic: near Bahamas
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Ken Buesseler (WHOI)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:center;">
+July
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+WHOI OTZ
+</td>
+<td style="text-align:center;">
+WHOI
+</td>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+Henry Bigelow
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+TED Audacious Project
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+NW Atlantic: slope
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Ken Buesseler (WHOI)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:center;">
+July
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+MFRI
+</td>
+<td style="text-align:left;">
+IS
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NW Atlantic: near Iceland
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:center;">
+Sep/Oct
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+TRATLEQ-1
+</td>
+<td style="text-align:center;">
+GEOMAR
+</td>
+<td style="text-align:left;">
+DE
+</td>
+<td style="text-align:left;">
+RV Meteor
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+EU, BMBF, Make Our Planet Great Again
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Angola and Equatorial Atlantic
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Peter Brandt, Rainer Kiko (GEOMAR)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:center;">
+Dec/Jan
+</td>
+<td style="text-align:center;">
+-55.0
+</td>
+<td style="text-align:center;">
+-90.00
+</td>
+<td style="text-align:center;">
+CUSTARD
+</td>
+<td style="text-align:center;">
+NOC
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+RRS Discovery
+</td>
+<td style="text-align:center;">
+DY111
+</td>
+<td style="text-align:center;">
+NERC
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+S. Ocean
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Adrian Martin (NOC)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:center;">
+May
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+EXPORTS
+</td>
+<td style="text-align:center;">
+WHOI
+</td>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+Atlantis/Armstrong
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NASA/NSF
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+N. Atlantic: 50N 30W
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+David Siegel (UCSB)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:center;">
+May
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+WHOI OTZ
+</td>
+<td style="text-align:center;">
+WHOI
+</td>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+Sarmiento De Gamboa
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+TED Audacious Project
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+N. Atlantic
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Ken Buesseler (WHOI)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:center;">
+late autumn
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+ICM
+</td>
+<td style="text-align:left;">
+FR
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+W. Mediterranean
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:center;">
+early spring
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+ICM
+</td>
+<td style="text-align:left;">
+FR
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NE Atlantic upwelling
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:center;">
+summer
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+IMAR
+</td>
+<td style="text-align:left;">
+PT
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Azores
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021
+</td>
+<td style="text-align:center;">
+spring
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+IFREMER
+</td>
+<td style="text-align:left;">
+FR
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Bay of Biscay
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021
+</td>
+<td style="text-align:center;">
+April
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+TRATLEQ-2
+</td>
+<td style="text-align:center;">
+GEOMAR, LOV
+</td>
+<td style="text-align:left;">
+DE
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Angola and Equatorial Atlantic
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Peter Brandt, Rainer Kiko (GEOMAR)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2022
+</td>
+<td style="text-align:center;">
+spring
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+PICCOLO
+</td>
+<td style="text-align:center;">
+UEA / PML
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+Sir David Attenborough?
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NERC
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+Weddel Sea
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+Karen Heywood (UEA)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019, 2020
+</td>
+<td style="text-align:center;">
+four cruises annually
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+METU
+</td>
+<td style="text-align:left;">
+TR
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+E. Mediterranean
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019, 2020
+</td>
+<td style="text-align:center;">
+spring and autumn
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+UPLGC
+</td>
+<td style="text-align:left;">
+ES
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Canary Islands
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019, 2020
+</td>
+<td style="text-align:center;">
+summer
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+SINTEF
+</td>
+<td style="text-align:left;">
+NO
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+N. Atlantic: transect Norway to Azores
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019, 2020, 2021
+</td>
+<td style="text-align:center;">
+May and September
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+AZTI
+</td>
+<td style="text-align:left;">
+ES
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Bay of Biscay
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019, 2020, 2021
+</td>
+<td style="text-align:center;">
+Late April - early June
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+SUMMER
+</td>
+<td style="text-align:center;">
+HI
+</td>
+<td style="text-align:left;">
+IS
+</td>
+<td style="text-align:left;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+Norwegian Sea
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+annual
+</td>
+<td style="text-align:center;">
+spring or early summer
+</td>
+<td style="text-align:center;">
+49.0
+</td>
+<td style="text-align:center;">
+-16.50
+</td>
+<td style="text-align:center;">
+PAP
+</td>
+<td style="text-align:center;">
+NOC
+</td>
+<td style="text-align:left;">
+UK
+</td>
+<td style="text-align:left;">
+Discovery/James Cook
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:center;">
+NERC
+</td>
+<td style="text-align:center;">
+yes
+</td>
+<td style="text-align:center;">
+NE Atlantic (PAP)
+</td>
+<td style="text-align:center;">
+_
+</td>
+<td style="text-align:left;">
+_
+</td>
+</tr>
+</tbody>
+</table>
+</div>
