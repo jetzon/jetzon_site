@@ -1,11 +1,8 @@
-[submodule "jetzon.github.io"]
-	path = jetzon.github.io
-	url = git@github.com:jetzon/jetzon.github.io.git
 [submodule "jetzon.github.io.git"]
 	path = jetzon.github.io.git
 	url = git@github.com:jetzon/jetzon.github.io.git
 	branch = master
-[submodule "public"]
+[submodule "jetzon.github.io"]
 	path = public
 	url = https://github.com/jetzon/jetzon.github.io.git
 	branch = master
