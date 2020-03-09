@@ -1,0 +1,59 @@
+---
+title: "JETZON Fieldwork"
+author: Sari Giering
+date: '2020-03-06'
+slug: jetzon-fieldwork
+description: >
+  Overview of JETZON fieldwork (past and planned)
+categories: []
+tags: []
+weight: 3
+# description: Map and list of past deployments
+---
+  
+This map shows the approximate regions of all past and upcoming JETZON fieldwork. To see cruise details, click on a marker, and information about the programme, cruise and contact person will pop up. Cruises from the same programme will show up in the same colour. More details can be found in the table below.
+
+If you are planning cruises (even if not funded yet), please add details here (<a class="link" href="https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYysbQBi59quaIL-FRZzC4v4g/edit?usp=sharing" target="_blank">link</a>)
+or contact Adrian Martin. (Your cruise location will show up next time we render this page.)
+
+```{R map, echo=FALSE, warning=FALSE}
+library(gsheet)
+fw <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYysbQBi59quaIL-FRZzC4v4g/edit?usp=sharing')
+
+# ---------
+content <- paste(sep="",
+                 "<b>",fw$Programme, " (", fw$Country, ")</b><br/>",
+                 "Lead institute: ", fw$`Lead institute`, "<br/>",
+                 "Contact: ", fw$Contact, "<br/>")
+
+library(RColorBrewer)
+palette <- c(brewer.pal(8, "Dark2"), brewer.pal(9, "Set1"))
+COL <- palette[as.numeric(as.factor(fw$Programme))]
+
+library(leaflet)
+leafMap <- leaflet(data=fw, width = "100%") %>% 
+  addProviderTiles("Esri.OceanBasemap") %>%
+  addCircleMarkers(~Long,~Lat,
+                   color = COL,
+                   popup = content,
+                   clusterOptions = markerClusterOptions(#freezeAtZoom = 5,
+                     disableClusteringAtZoom = 5,
+                     zoomToBoundsOnClick = FALSE)
+  )
+leafMap
+```
+<br>
+
+Details of past and upcoming JETZON fieldwork:
+```{r overview-table, echo=FALSE, warning=FALSE}
+overview <- fw
+
+library(kableExtra)
+options(kableExtra.html.bsTable = TRUE)
+options(knitr.kable.NA = '_')
+
+overview %>%
+  kable(align=c("l","c","c","c","c","c","l")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
+  scroll_box(width = "100%", box_css = "border: 1px solid #FFFFFF;")
+```
