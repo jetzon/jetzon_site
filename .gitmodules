@@ -5,3 +5,7 @@
 	path = jetzon.github.io.git
 	url = git@github.com:jetzon/jetzon.github.io.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/jetzon/jetzon.github.io.git
+	branch = master
