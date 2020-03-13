@@ -298,14 +298,11 @@
 
 
 
-<a href="https://github.com/jetzon/jetzon_site/edit/master/content/en/docs%5c_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/jetzon/jetzon_site/issues/new?title=Documentation" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
-
-
-<a href="https://github.com/jetzon/jetzon_site/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
-
+<a href="mailto:jetzon.org@gmail.com?subject=JETZON website" target="_blank"><i class="fas fa-envelope fa-fw"></i> Email us</a>
+<a href="https://github.com/jetzon/jetzon_site/tree/master/content/en/docs" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page (via Github)</a>
+<a href="https://github.com/jetzon/jetzon_site/issues/new?title=Documentation" target="_blank"><i class="fab fa-github fa-fw"></i> Comment on this page (via Github)</a>
+<hr>
 </div>
-
 
 
 
@@ -407,66 +404,6 @@
     
 </div>
 
-	
-		<style>
-  .feedback--answer {
-    display: inline-block;
-  }
-  .feedback--answer-no {
-    margin-left: 1em;
-  }
-  .feedback--response {
-    display: none;
-    margin-top: 1em;
-  }
-  .feedback--response__visible {
-    display: block;
-  }
-</style>
-<h2 class="feedback--title">Feedback</h2>
-<p class="feedback--question">Was this page helpful?</p>
-<button class="feedback--answer feedback--answer-yes">Yes</button>
-<button class="feedback--answer feedback--answer-no">No</button>
-<p class="feedback--response feedback--response-yes">
-  Glad to hear it! Please <a href="https://github.com/jetzon/jetzon.github.io/issues/new">tell us how we can improve</a>.
-</p>
-<p class="feedback--response feedback--response-no">
-  Sorry to hear that. Please <a href="https://github.com/jetzon/jetzon.github.io/issues/new">tell us how we can improve</a>.
-</p>
-<script>
-  const yesButton = document.querySelector('.feedback--answer-yes');
-  const noButton = document.querySelector('.feedback--answer-no');
-  const yesResponse = document.querySelector('.feedback--response-yes');
-  const noResponse = document.querySelector('.feedback--response-no');
-  const disableButtons = () => {
-    yesButton.disabled = true;
-    noButton.disabled = true;
-  };
-  const sendFeedback = (value) => {
-    if (typeof ga !== 'function') return;
-    const args = {
-      command: 'send',
-      hitType: 'event',
-      category: 'Helpful',
-      action: 'click',
-      label: window.location.pathname,
-      value: value
-    };
-    ga(args.command, args.hitType, args.category, args.action, args.label, args.value);
-  };
-  yesButton.addEventListener('click', () => {
-    yesResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(1);
-  });
-  noButton.addEventListener('click', () => {
-    noResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(0);
-  });
-</script>
-
-		<br />
 	
 	
 	<div class="text-muted mt-5 pt-3 border-top">Last modified March 9, 2020: <a  href="https://github.com/jetzon/jetzon_site/commit/2182cbb21b8f51de1d62033ec9d16bf5364ceb18">Fieldwork update. Colours. (2182cbb)</a>

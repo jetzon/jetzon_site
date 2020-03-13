@@ -10,7 +10,7 @@ resources:
     byline: "Graphic: Sari Giering"
 ---
 
-## Joint Exploration of the Twilight Zone Ocean Network!
+### Joint Exploration of the Twilight Zone Ocean Network!
 
 {{< imgproc TZ_observations Resize "600x">}}
 State of the art for observing the twilight zone.
@@ -23,10 +23,22 @@ JETZON was set up to address the question: how can we as an international scient
 
 JETZON has to origin in the BIARRITZ (Bridging International Activity and Related Research Into the Twilight Zone) workshop in July 2019, funded by the National Environmental Research Council (UK), NASA, OCB, and SCOR. The workshop brought together 13 international projects tacking aspects of the Twilight Zone's role and function, from viruses to fish.
 
-## Vision
+<hr>
+{{% alert title="Vision" color="warning" %}}
+JETZON seeks to provide a forum for all interested in the Twilight Zone, to interact, build collaborations and share data and opportunities.
+{{% /alert %}}
+<hr>
 
-*I guess we should have some vision of mission statement. What do we want JETZN to be, etc.*
+### How you can get involved
 
-## How you can get involved
+Most importantly please do. JETZON will only thrive if fuelled by everyone’s interest in this fascinating and important environment. Understanding it is a colossal task but by joining forces we can make real progress.
+More specifically: 
+- take a look at our Twitter feed 
+	<a href="https://twitter.com/ocean_Jetzon?ref_src=twsrc%5Etfw" target="_blank" data-show-count="false">@ocean_Jetzon</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		for recent news. For non-Twitterers it is duplicated on our main page
+	<a href="http://www.jetzon.org" target="_blank">www.jetzon.org</a>.
+- check out these Github pages for information on cruises, projects, data and method inter-comparison.
+	If you feel you can contribute something, please do – that’s the beauty of Github. It can be adding something to existing information or something new.
+- if you have news that might be of interest to the Twilight Zone community, please tell us. You can email us at jetzon.org@gmail.com or Tweet us
+	<a href="https://twitter.com/intent/tweet?screen_name=ocean_Jetzon&ref_src=twsrc%5Etfw" target="_blank" data-show-count="false">@ocean_Jetzon</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>.
 
-*And then we obviously need some instructions of how people can get involved, etc.*

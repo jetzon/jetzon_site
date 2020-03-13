@@ -46,7 +46,10 @@ leafMap
 
 Details of past and upcoming JETZON fieldwork:
 ```{r overview-table, echo=FALSE, warning=FALSE}
-overview <- fw
+# order by one year cruises
+ORDER_1year  <- order(as.numeric(as.character(fw$Year)))
+overview     <- fw[ORDER_1year,]
+
 
 library(kableExtra)
 options(kableExtra.html.bsTable = TRUE)

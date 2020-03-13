@@ -1,0 +1,22 @@
+{{ if .Path }}
+{{ $gh_repo := ($.Param "github_repo") }}
+{{ $gh_subdir := ($.Param "github_subdir") }}
+{{ $gh_project_repo := ($.Param "github_project_repo") }}
+{{ if $gh_repo }}
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+{{ $editURL := printf "%s/edit/master/content/%s" $gh_repo .Path }}
+{{ if and ($gh_subdir) (.Site.Language.Lang) }}
+{{ $editURL = printf "%s/edit/master/%s/content/%s/%s" $gh_repo $gh_subdir ($.Site.Language.Lang) $.Path }}
+{{ else if .Site.Language.Lang }}
+{{ $editURL = printf "%s/tree/master/content/%s/docs" $gh_repo ($.Site.Language.Lang)}}
+{{ else if $gh_subdir }}
+{{ $editURL = printf "%s/edit/master/%s/content/%s" $gh_repo $gh_subdir $.Path }}
+{{ end }}
+{{ $issuesURL := printf "%s/issues/new?title=%s" $gh_repo (htmlEscape $.Title )}}
+<a href="mailto:jetzon.org@gmail.com?subject=JETZON website" target="_blank"><i class="fas fa-envelope fa-fw"></i> Email us</a>
+<a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page (via Github)</a>
+<a href="{{ $issuesURL }}" target="_blank"><i class="fab fa-github fa-fw"></i> Comment on this page (via Github)</a>
+<hr>
+</div>
+{{ end }}
+{{ end }}
