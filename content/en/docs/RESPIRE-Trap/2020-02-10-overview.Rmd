@@ -60,3 +60,26 @@ overview %>%
   kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
   scroll_box(width = "100%", box_css = "border: 1px solid #FFFFFF;")
 ```
+<br>
+
+# Ancillary data
+Some mission parameters and ancillary metrics of the different RESPIRE deployments can be found in the table below. To add your data, please add your mission data here (<a class="link" href="https://docs.google.com/spreadsheets/d/1FaS2U1IIc6cFEI8om9_TEasHXExQO8f2QXrntWjEwF4/edit?usp=sharing" target="_blank">link</a>).
+
+```{r ancillary-table, echo=FALSE, warning=FALSE}
+library(gsheet)
+library(readr)
+ancillary <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1FaS2U1IIc6cFEI8om9_TEasHXExQO8f2QXrntWjEwF4/edit?usp=sharing')
+
+# change column names
+colnames(ancillary) <- ancillary[1,]
+ancillary           <- ancillary[-1,]
+
+library(kableExtra)
+options(kableExtra.html.bsTable = TRUE)
+
+ancillary %>%
+  kable(caption = "Mission parameters of RESPIRE deployments. *TBD: To be determined.") %>%
+  add_header_above(c(" " = 1, "Mission parmeters" = 6, "Flux characteristics" = 4, "In situ conditions" = 2)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
+  scroll_box(width = "100%", box_css = "border: 1px solid #FFFFFF;")
+```

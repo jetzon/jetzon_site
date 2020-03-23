@@ -294,6 +294,1763 @@ on request
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div id=&#34;ancillary-data&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Ancillary data&lt;/h1&gt;
+&lt;p&gt;Some mission parameters and ancillary metrics of the different RESPIRE deployments can be found in the table below. To add your data, please add your mission data here (&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/spreadsheets/d/1FaS2U1IIc6cFEI8om9_TEasHXExQO8f2QXrntWjEwF4/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;).&lt;/p&gt;
+&lt;div style=&#34;border: 1px solid #FFFFFF;overflow-x: scroll; width:100%; &#34;&gt;
+&lt;table class=&#34;table table-striped table-hover table-responsive&#34; style=&#34;font-size: 11px; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;caption style=&#34;font-size: initial !important;&#34;&gt;
+&lt;span id=&#34;tab:ancillary-table&#34;&gt;Table 2: &lt;/span&gt;Mission parameters of RESPIRE deployments. *TBD: To be determined.
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;border-bottom:hidden&#34; colspan=&#34;1&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;6&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+Mission parmeters
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;4&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+Flux characteristics
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;2&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+In situ conditions
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Deployment ID
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Latitude (°N)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Longitude (°E)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Depth (m)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Date (UTC)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Collection time (h)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Incubation time (d)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+POC residual (uM)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+SD
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+PN residual (uM)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+SD
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Oxygen (uM)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Tempertaure (°C)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_01
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-50.393
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+147.053
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+184
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+31/03/2016
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+69.28
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.51
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18.13
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+3.67
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+286.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.18
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_02
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-51.913
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+148.505
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+180
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+07/04/2016
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+57.12
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.63
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18.79
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+265.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.17
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_03
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.217
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+171.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20/03/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+47.57
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.69
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+270.2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.33
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_04
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.076
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.268
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+171.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/03/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36.58
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+14.57
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.85
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+270.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.36
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+35.484
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+19.796
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+121.2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/05/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+71.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.72
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+126.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.66
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+3.97
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+204.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15.86
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+35.484
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+19.796
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+203.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/05/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+71.12
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+19.27
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.99
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+195.9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15.46
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+37.947
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.905
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+121.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+02/06/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+72.12
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.38
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.83
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.74
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.21
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+189.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+14.21
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+37.947
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.905
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+198.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+02/06/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+71.93
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.47
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+33.54
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.27
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+175.2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+13.65
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.996
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.762
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+202.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+16/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.71
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+45.42
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.09
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.73
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+267
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.49
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_09
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.882
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.024
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+202.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+21/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.95
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+40.29
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.13
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.65
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+265.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.95
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.986
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.238
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+203
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+27/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.32
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+44.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.75
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.22
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.22
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+272
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.29
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.986
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.238
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+250
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+27/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.33
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.57
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.17
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+274
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.15
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.986
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.238
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+295.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+27/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.33
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+53.15
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.74
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.83
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.21
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+273.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.09
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.871
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.201
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+203
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.85
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15.24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.16
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.88
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.54
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+272.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.19
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.871
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.201
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+250
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.86
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.95
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.76
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.39
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+274
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-46.871
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+142.201
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+298.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30/03/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.88
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+28.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.44
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+3.59
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.49
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+272
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.08
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_EPOCH3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50.585
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-144.864
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+105
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+31/08/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+33.78
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+17.61
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.85
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+242.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.21
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_EPOCH3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50.585
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-144.864
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+155
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+31/08/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30.37
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+3.25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.76
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.41
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+156
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_EPOCH3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50.585
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-144.864
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+205
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+31/08/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.81
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+124.9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+4.3
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3A
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.691
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.185
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+78
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/11/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+29.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+499.82
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+81.65
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+339.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+2.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3A
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.691
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.185
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+128
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/11/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+28.88
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.29
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+131.14
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+19.9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+309.9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.9
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3B
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.706
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+83
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30/11/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.43
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+210.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+29.11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+328.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3B
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.706
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+133
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30/11/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+97.79
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11.53
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+307.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.78
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3C
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.729
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.393
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+138
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11/12/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36.68
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+168.02
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20.16
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+290.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.78
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_P3C
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-52.729
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-40.393
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+188
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11/12/2017
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36.58
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+184.66
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+21.34
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+231.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.3
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BS1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-21.556
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.431
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+105
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+26/05/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.97
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.01
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.52
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+212
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BS1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-21.556
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+9.431
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+235
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+26/05/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+40.25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.14
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+65.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+14
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.297
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.945
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+105
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+02/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+38.35
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+163.22
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+16.38
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+137.4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+14.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.297
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.945
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+236
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+02/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+38.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+138.69
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+12.44
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+92.6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.297
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.945
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+107
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+09/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36.83
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.09
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+389.97
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+7.03
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+111.9
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+13.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.297
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.945
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+238
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+09/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+36.22
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+84.39
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.73
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+106.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.9
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN31
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.026
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11.01
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+104
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+29.92
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.06
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+83.3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+6.07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+107.5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+13.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN31
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.026
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11.01
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+235
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+15/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+30.05
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+53.51
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.42
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+44.8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+11.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN32
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.027
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.989
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+103
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+29.37
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.14
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+68.92
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+8.72
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+112.7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+13.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_BN32
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-18.027
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.989
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+235
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/06/2018
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+29.58
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.14
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50.68
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5.11
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+NA
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+96.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+10.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_DTC
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-20.38
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-166.455
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+168
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.92
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.67
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_DTC
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-20.38
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-166.455
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.93
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20.36
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_DTC
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-20.38
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-166.455
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+276
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+50
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+0.93
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+18.62
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_V2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-19.402
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-175.109
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+166
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+22.07
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_V2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-19.402
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-175.109
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+19.81
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+RES_V2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-19.402
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+-175.109
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+276
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+24/11/2019
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+48
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1.1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+TBD
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+17.95
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
       </description>
     </item>
