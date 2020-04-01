@@ -134,7 +134,7 @@ no = 'Sorry to hear that. Please <a href="mailto:jetzon.org@gmail.com?subject=JE
 	name = "Contact us"
 	url = "mailto:jetzon.org@gmail.com"
 	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+        desc = "We'd love to hear from you!"
 [[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/Ocean_JETZON"
@@ -150,7 +150,7 @@ no = 'Sorry to hear that. Please <a href="mailto:jetzon.org@gmail.com?subject=JE
 	name = "GitHub"
 	url = "https://github.com/jetzon"
 	icon = "fab fa-github"
-        desc = "Development takes place here!"
+        desc = "Website development."
 #[[params.links.developer]]
 #	name = "Slack"
 #	url = "https://example.org/slack"
