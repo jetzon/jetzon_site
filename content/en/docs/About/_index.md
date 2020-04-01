@@ -13,7 +13,7 @@ resources:
 ### Joint Exploration of the Twilight Zone Ocean Network!
 
 {{< imgproc TZ_observations Resize "600x">}}
-State of the art for observing the twilight zone.
+<b>State of the art for observing the twilight zone.</b> Methods include (a) autonomous sampling and observing e.g. via floats and gliders, (b) ship-based measurements, and (c) remote sensing. Exciting new insights are being increasingly made through (1) omics and (2) optics (e.g. in situ cameras and backscatter sensors).
 {{< /imgproc >}}
 
 

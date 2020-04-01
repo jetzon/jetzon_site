@@ -21,7 +21,7 @@ resources:
     byline: "Photo: ??"
 ---
 
-Thorium-234 (<sup>234</sup>Th) is a naturally occurring radionuclide in the ocean, formed from decay of its Uranium-238 “parent” which is delivered to the oceans via weathering and rivers.  Quite simply, lower levels of <sup>234</sup>Th means more of the thorium that is attached to the sinking particles is being removed.  These same particles carry organic carbon and associated elements from the surface to the deep sea.  Starting in the early 1990’s scientists realized that if they measured carbon on the same particles, they could estimate the sinking flux of carbon, which is a key parameter in considering the ocean’s role in the global carbon cycle and climate.  
+Thorium-234 (<sup>234</sup>Th) is a naturally occurring radionuclide in the ocean, formed from decay of its Uranium-238 “parent” which is delivered to the oceans via weathering and rivers.  Quite simply, lower levels of <sup>234</sup>Th means more of the Thorium that is attached to the sinking particles is being removed.  These same particles carry organic carbon and associated elements from the surface to the deep sea.  Starting in the early 1990’s scientists realized that if they measured carbon on the same particles, they could estimate the sinking flux of carbon, which is a key parameter in considering the ocean’s role in the global carbon cycle and climate.  
 
 {{% alert title="Data sharing" color="warning" %}}
 As part of JETZON, we have started a data sharing effort. If you have <sup>234</sup>Th data, please consider sharing it here:
@@ -34,7 +34,7 @@ As part of JETZON, we have started a data sharing effort. If you have <sup>234</
 ## Links to other resources
 
 - <a href="https://seabass.gsfc.nasa.gov/archive/WHOI/buesseler/EXPORTS/EXPORTSNP/documents" target="_blank">
-	234Th and size fractionated particle methods from EXPORTS
+	<sup>234</sup>Th and size fractionated particle methods from EXPORTS
 	</a>
 
 - <a href="https://cmer.whoi.edu/cookbook/" target="_blank">
