@@ -20,9 +20,12 @@ or contact Adrian Martin. (Your cruise location will show up next time we render
 library(gsheet)
 fw <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYysbQBi59quaIL-FRZzC4v4g/edit?usp=sharing')
 
+PROG <- fw$Programme
+PROG[is.na(fw$Programme)] <- "<i>Cruise</i>"
+
 # ---------
 content <- paste(sep="",
-                 "<b>",fw$Programme, " (", fw$Country, ")</b><br/>",
+                 "<b>", PROG, " (", fw$Country, ")</b><br/>",
                  "Date: ", fw$Dates, " ", fw$Year, "<br/>",
                  "Lead institute: ", fw$`Lead institute`, "<br/>",
                  "Contact: ", fw$Contact, "<br/>")
