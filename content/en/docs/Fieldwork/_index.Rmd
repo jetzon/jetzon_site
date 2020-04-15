@@ -23,6 +23,7 @@ fw <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYys
 # ---------
 content <- paste(sep="",
                  "<b>",fw$Programme, " (", fw$Country, ")</b><br/>",
+                 "Date: ", fw$Dates, " ", fw$Year, "<br/>",
                  "Lead institute: ", fw$`Lead institute`, "<br/>",
                  "Contact: ", fw$Contact, "<br/>")
 
@@ -37,7 +38,7 @@ leafMap <- leaflet(data=fw, width = "100%") %>%
                    color = COL,
                    popup = content,
                    clusterOptions = markerClusterOptions(#freezeAtZoom = 5,
-                     disableClusteringAtZoom = 5,
+                     disableClusteringAtZoom = 4,
                      zoomToBoundsOnClick = FALSE)
   )
 leafMap

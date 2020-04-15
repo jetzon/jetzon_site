@@ -9,16 +9,16 @@ resources:
 - src: "*collection*.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: ??"
+    byline: "Photo: Ken Buesseler"
 - src: "*spike*.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: ??"
+    byline: "Photo: Ken Buesseler"
 
 - src: "*rig*.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: ??"
+    byline: "Photo: Ken Buesseler"
 ---
 
 Thorium-234 (<sup>234</sup>Th) is a naturally occurring radionuclide in the ocean, formed from decay of its Uranium-238 “parent” which is delivered to the oceans via weathering and rivers.  Quite simply, lower levels of <sup>234</sup>Th means more of the Thorium that is attached to the sinking particles is being removed.  These same particles carry organic carbon and associated elements from the surface to the deep sea.  Starting in the early 1990’s scientists realized that if they measured carbon on the same particles, they could estimate the sinking flux of carbon, which is a key parameter in considering the ocean’s role in the global carbon cycle and climate.  
@@ -50,7 +50,7 @@ As part of JETZON, we have started a data sharing effort. If you have <sup>234</
 	</a>
 
 - <a href="https://cafethorium.whoi.edu/thorium-data/" target="_blank">
-	Global <sup>234</sup>Th data base (in progress from Sevilla group)
+	Global <sup>234</sup>Th data base
 	</a>
 
 - <a href="https://doi.org/10.5194/essd-2020-10" target="_blank">
