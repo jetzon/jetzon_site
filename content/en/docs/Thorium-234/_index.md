@@ -58,7 +58,7 @@ As part of JETZON, we have started a data sharing effort. If you have <sup>234</
 	</a>
 
 {{< imgproc collection Fill "400x700">}}
-Jennifer Drysdale collecting <sup>234</sup>Th samples.
+Jennifer Kenyon collecting <sup>234</sup>Th samples.
 {{< /imgproc >}}
 
 {{< imgproc spike Fill "400x700">}}
