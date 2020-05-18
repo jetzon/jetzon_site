@@ -19,8 +19,8 @@ Measurements of net primary production (NPP) rates can be measured using radiola
 {{% alert title="Data sharing" color="warning" %}}
 As part of JETZON, we have started a data sharing effort. If you have NPP data, please consider sharing it here:
 
-<a href="https://docs.google.com/spreadsheets/d/1jFyQP9v3tAmeRM_6i7pYjSEsnz1oqoLra-RDXb3uOKQ/edit?usp=sharing" target="_blank">
- 	Google sheet for NPP data sharing - currently wrong link!
+<a href="https://docs.google.com/spreadsheets/d/1w2S6-MOfta1X1zbTYfiPnGrtdAkooBNx48RFmOLIaJU/edit?usp=sharing" target="_blank">
+ 	Google sheet for NPP data sharing
 </a>
 {{% /alert %}}
 
