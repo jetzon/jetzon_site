@@ -1,10 +1,11 @@
 ---
 title: "Thorium-234"
 linkTitle: "Thorium-234"
-weight: 10
+weight: 200
 date: 2020-01-13
 description: >
   An introduction to the use of Thorium-234 as a tracer of sinking particles in the ocean
+
 resources:
 - src: "*collection*.{png,jpg}"
   title: "Image #:counter"
@@ -14,7 +15,6 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Photo: Ken Buesseler"
-
 - src: "*rig*.{png,jpg}"
   title: "Image #:counter"
   params:

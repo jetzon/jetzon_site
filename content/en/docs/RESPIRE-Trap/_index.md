@@ -1,7 +1,7 @@
 ---
 title: "RESPIRE Trap"
 linkTitle: "RESPIRE Trap"
-weight: 10
+weight: 180
 date: 2020-01-13
 description: >
   An introduction to the RESPIRE Trap
