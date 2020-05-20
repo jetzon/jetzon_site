@@ -36,7 +36,7 @@ Not a fan of the google sheet? Only want to contribute details of your publicati
 Please use
 <a href="https://docs.google.com/spreadsheets/d/1TGtr5tTOUeL3Z4dVIXVbZQrDTw-Eb7o8eGOossYeJdc/edit?usp=sharing" target="_blank">
  	this template</a>  </br>
-and send it to María Villa-Alfageme (mvilla@us.es) or Elena Ceballos-Romero (eceballos1@us.es; University of Sevilla).
+and send it to María Villa-Alfageme (mvilla@us.es; University of Sevilla) or Elena Ceballos-Romero (eceballos1@us.es; University of Sevilla).
 </p>
 {{% /alert %}}
 
