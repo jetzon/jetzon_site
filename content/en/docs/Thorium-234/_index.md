@@ -24,12 +24,26 @@ resources:
 Thorium-234 (<sup>234</sup>Th) is a naturally occurring radionuclide in the ocean, formed from decay of its Uranium-238 “parent” which is delivered to the oceans via weathering and rivers.  Quite simply, lower levels of <sup>234</sup>Th means more of the Thorium that is attached to the sinking particles is being removed.  These same particles carry organic carbon and associated elements from the surface to the deep sea.  Starting in the early 1990’s scientists realized that if they measured carbon on the same particles, they could estimate the sinking flux of carbon, which is a key parameter in considering the ocean’s role in the global carbon cycle and climate.  
 
 {{% alert title="Data sharing" color="warning" %}}
+<p>
 As part of JETZON, we have started a data sharing effort. If you have <sup>234</sup>Th data, please consider sharing it here:
-
 <a href="https://docs.google.com/spreadsheets/d/1jFyQP9v3tAmeRM_6i7pYjSEsnz1oqoLra-RDXb3uOKQ/edit?usp=sharing" target="_blank">
  	Google sheet for data sharing
 </a>
+</p>
+
+<p>
+Not a fan of the google sheet? Only want to contribute details of your publications? No problem!   
+Please use
+<a href="https://docs.google.com/spreadsheets/d/1TGtr5tTOUeL3Z4dVIXVbZQrDTw-Eb7o8eGOossYeJdc/edit?usp=sharing" target="_blank">
+ 	this template</a>  </br>
+and send it to María Villa-Alfageme (mvilla@us.es) or Elena Ceballos-Romero (eceballos1@us.es; University of Sevilla).
+</p>
 {{% /alert %}}
+
+Your data will be included in the <sup>234</sup>Th global compilation that soon will be hosted in PANGAEA and regularly updated:
+<i>"Revisiting 50 years of <sup>234</sup>Th data: a comprehensive global oceanic data base"</i>. 
+The aim of this compilation is to enable users to view and download ocean thorium data from all over the world. More information can be found here: 
+<a href="https://cafethorium.whoi.edu/thorium-data/" target="_blank"> Global <sup>234</sup>Th data base </a>.
 
 ## Links to other resources
 
