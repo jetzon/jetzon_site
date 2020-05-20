@@ -33,3 +33,11 @@ As part of JETZON, we have started a data sharing effort. If you have <sup>234</
 - <a href="https://seabass.gsfc.nasa.gov/archive/WHOI/buesseler/EXPORTS/EXPORTSNP/archive/" target="_blank">
 	EXPORTS <sup>210</sup>Po data
 	</a>
+
+## References
+
+Rutgers, M.M van der Loeff and Geibert (2008) W. U- and Th-Series Nuclides as Tracers of Particle Dynamics, Scavenging and Biogeochemical Cycles in the Oceans. Radioactivity in the Environment. doi:10.1016/S1569-4860(07)00007-1
+
+Ceballos-Romero. E. et al. (2016). Influence of bloom dynamics on Particle Export Efficiency in the North Atlantic: a comparative study of radioanalytical techniques and sediment traps. Marine Chemistry. doi:10.1016/j.marchem.2016.10.001.
+
+Roca-Martí, M. et al. ( 2016) Carbon export fluxes and export efficiency in the central Arctic during the record sea‐ice minimum in 2012: a joint 234Th/238U and 210Po/210Pb study. Journal of Geophysical Research. Oceans  doi:10.1002/2016JC011816.
