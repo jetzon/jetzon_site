@@ -140,11 +140,11 @@ no = 'Sorry to hear that. Please <a href="mailto:jetzon.org@gmail.com?subject=JE
 	url = "https://twitter.com/Ocean_JETZON"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
-#[[params.links.user]]
-#	name = "Stack Overflow"
-#	url = "https://example.org/stack"
-#	icon = "fab fa-stack-overflow"
-#        desc = "Practical questions and curated answers"
+[[params.links.user]]
+	name = "About JETZON"
+	url = "/docs/about"
+	icon = "fas fa-info-circle"
+        desc = "Background and Vision!"
 
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 #[[params.links.developer]]

@@ -2,29 +2,28 @@
 
 <section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox bg-white">
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<h2>Learn and Connect</h2>    
-<p>Are you interested in joining JETZON? Find out more here:
-	{{ with index $links "user"}}
-	{{ template "community-links-list"  . }}
-	{{ end }}
-</div>
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<h2>Learn and connect</h2>    
+			<p>Are you interested in joining JETZON? Find out more here:
+			{{ with index $links "user"}}
+			{{ template "community-links-list"  . }}
+			{{ end }}
+	</div>
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<h2>Develop and Contribute</h2>
-<p>If you want to get more involved, check out how to do it here:
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<h2>Get involved and contribute</h2>
+		<p>If you want to get more involved, check out how to do it here:
 
-<ul>
-<li><a href="/docs/about/#how-you-can-get-involved"><i class="fas fa-hands-helping"></i> Get involved!</a>
-</li>
-</ul>
+		<ul>
+		<li><a href="/docs/about/#how-you-can-get-involved"><i class="fas fa-hands-helping"></i> Get involved!</a>
+		</li>
+		</ul>
 
-<p>If you want to contribute directly to this website via Github, join us here:
-	{{ with index $links "developer"}}
-	{{ template "community-links-list"  . }}
-	{{ end }}
-</div>
-
+		<p>If you want to contribute directly to this website via Github, join us here:
+			{{ with index $links "developer"}}
+			{{ template "community-links-list"  . }}
+			{{ end }}
+	</div>
 </section>
 
 {{ define "community-links-list" }}
