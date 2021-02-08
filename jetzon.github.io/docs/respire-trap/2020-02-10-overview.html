@@ -460,13 +460,13 @@ color: #d14;
   function tryEval(code) {
     var result = null;
     try {
-      result = eval(code);
+      result = eval("(" + code + ")");
     } catch(error) {
       if (!error instanceof SyntaxError) {
         throw error;
       }
       try {
-        result = eval("(" + code + ")");
+        result = eval(code);
       } catch(e) {
         if (e instanceof SyntaxError) {
           throw error;
@@ -5242,9 +5242,16 @@ background-color: #f5f5f5;
 }
 .lightable-classic {
 border-top: 0.16em solid #111111;
+border-bottom: 0.16em solid #111111;
 width: 100%;
 margin-bottom: 10px;
 margin: 10px 5px;
+}
+.lightable-classic tfoot tr td {
+border: 0;
+}
+.lightable-classic tfoot tr:first-child td {
+border-top: 0.14em solid #111111;
 }
 .lightable-classic caption {
 color: #222222;
@@ -5263,9 +5270,6 @@ color: #222222;
 .lightable-classic thead tr:last-child th {
 border-bottom: 0.10em solid #111111;
 }
-.lightable-classic tbody tr:last-child td {
-border-bottom: 0.14em solid #111111;
-}
 .lightable-classic.lightable-hover tbody tr:hover {
 background-color: #F9EEC1;
 }
@@ -5274,8 +5278,15 @@ background-color: #f5f5f5;
 }
 .lightable-classic-2 {
 border-top: 3px double #111111;
+border-bottom: 3px double #111111;
 width: 100%;
 margin-bottom: 10px;
+}
+.lightable-classic-2 tfoot tr td {
+border: 0;
+}
+.lightable-classic-2 tfoot tr:first-child td {
+border-top: 3px double #111111;
 }
 .lightable-classic-2 caption {
 color: #222222;
@@ -5312,6 +5323,12 @@ border: 1px solid #EEE;
 border-collapse: collapse;
 margin-bottom: 10px;
 }
+.lightable-material tfoot tr td {
+border: 0;
+}
+.lightable-material tfoot tr:first-child td {
+border-top: 1px solid #EEE;
+}
 .lightable-material th {
 height: 56px;
 padding-left: 16px;
@@ -5345,6 +5362,12 @@ border-collapse: collapse;
 margin-bottom: 10px;
 background-color: #363640;
 }
+.lightable-material-dark tfoot tr td {
+border: 0;
+}
+.lightable-material-dark tfoot tr:first-child td {
+border-top: 1px solid #FFFFFF12;
+}
 .lightable-material-dark th {
 height: 56px;
 padding-left: 16px;
@@ -5374,6 +5397,12 @@ border-bottom: 1px solid #FFFFFF12;
 width: 100%;
 margin-bottom: 10px;
 color: #444;
+}
+.lightable-paper tfoot tr td {
+border: 0;
+}
+.lightable-paper tfoot tr:first-child td {
+border-top: 1px solid #00000020;
 }
 .lightable-paper thead tr:last-child th {
 color: #666;
@@ -6376,8 +6405,8 @@ summary {
 
 <p>This map shows all RESPIRE deployments so far. To get deployment details, click on a cluster and marker, and information about the programme, cruise and contact person will pop up. Each contact person has a different colour, so you know whether more than one contact person is in a cluster.</p>
 <p>If you have deployed RESPIRE yourself but your deployments are not on this map yet, please add details here (<a class="link" href="https://docs.google.com/spreadsheets/d/1FEnRvxfszDumVpuEM5RRYWh2iM65xY-OW3Mxb9ketZI/edit?usp=sharing" target="_blank">link</a>) or contact Matthieu Bressac. (Your data will show up next time we render this page.)</p>
-<p><div id="htmlwidget-bba2b934c4b30ba5d2d1" style="width:100%;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bba2b934c4b30ba5d2d1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.OceanBasemap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[-50.39,-51.91,-46.07,-46.07,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,35.48,35.48,37.947,37.947,50.585,50.585,50.585,-52.691,-52.691,-52.706,-52.706,-52.729,-52.729,-21.556,-21.556,-18.297,-18.297,-18.026,-18.026,-18.027,-18.027,-20.38,-20.38,-20.38,-19.402,-19.402,-19.402],[147.05,148.51,142.22,142.22,142.24,142.24,142.24,142.24,142.24,142.24,142.24,142.24,19.8,19.8,2.905,2.905,-144.864,-144.864,-144.864,-40.185,-40.185,-40.08,-40.08,-40.393,-40.393,9.431,9.431,10.945,10.945,11.01,11.01,10.989,10.989,-166.455,-166.455,-166.455,-175.109,-175.109,-175.109],10,null,null,{"interactive":true,"className":"","stroke":true,"color":["#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#1B9E77","#1B9E77","#1B9E77","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#1B9E77","#1B9E77","#1B9E77","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3"],"fillOpacity":0.2},{"showCoverageOnHover":true,"zoomToBoundsOnClick":false,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"disableClusteringAtZoom":5},null,["<b>EDDY<\/b><br/>Cruise: IN2016_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>EDDY<\/b><br/>Cruise: IN2016_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2017_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2017_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-52.729,50.585],"lng":[-175.109,148.51]}},"evals":[],"jsHooks":[]}</script> <br></p>
+<p><div id="htmlwidget-56a0d255b1983840d053" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-56a0d255b1983840d053">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.OceanBasemap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[-50.39,-51.91,-46.07,-46.07,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,-46.99,35.48,35.48,37.947,37.947,50.585,50.585,50.585,-52.691,-52.691,-52.706,-52.706,-52.729,-52.729,-21.556,-21.556,-18.297,-18.297,-18.026,-18.026,-18.027,-18.027,-20.38,-20.38,-20.38,-19.402,-19.402,-19.402],[147.05,148.51,142.22,142.22,142.24,142.24,142.24,142.24,142.24,142.24,142.24,142.24,19.8,19.8,2.905,2.905,-144.864,-144.864,-144.864,-40.185,-40.185,-40.08,-40.08,-40.393,-40.393,9.431,9.431,10.945,10.945,11.01,11.01,10.989,10.989,-166.455,-166.455,-166.455,-175.109,-175.109,-175.109],10,null,null,{"interactive":true,"className":"","stroke":true,"color":["#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#1B9E77","#1B9E77","#1B9E77","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#1B9E77","#1B9E77","#1B9E77","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#D95F02","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3","#7570B3"],"fillOpacity":0.2},{"showCoverageOnHover":true,"zoomToBoundsOnClick":false,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"disableClusteringAtZoom":5},null,["<b>EDDY<\/b><br/>Cruise: IN2016_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>EDDY<\/b><br/>Cruise: IN2016_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2017_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2017_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>SOTS<\/b><br/>Cruise: IN2019_V02<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>PEACETIME<\/b><br/>Cruise: PEACETIME<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>EXPORTS<\/b><br/>Cruise: EXPORTS 1<br/>Contact: Alyson Santoro (UCSB, US)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 1<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>COMICS<\/b><br/>Cruise: COMICS 2<br/>Contact: Emmanuel Laurenceau-Cornec / Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>","<b>TONGA<\/b><br/>Cruise: TONGA<br/>Contact: Matthieu Bressac (UTAS, AU)<br/>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-52.729,50.585],"lng":[-175.109,148.51]}},"evals":[],"jsHooks":[]}</script> <br></p>
 <div style="border: 1px solid #FFFFFF;overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-responsive" style="font-size: 11px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">

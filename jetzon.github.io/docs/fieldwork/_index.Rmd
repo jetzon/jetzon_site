@@ -20,7 +20,8 @@ or contact Adrian Martin. (Your cruise location will show up next time we render
 library(gsheet)
 fw <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1vENxpEVUaD8BloVtcrvYysbQBi59quaIL-FRZzC4v4g/edit?usp=sharing')
 
-PROG <- fw$Programme
+# Replace missing programme name for map
+PROG                      <- fw$Programme
 PROG[is.na(fw$Programme)] <- "<i>Cruise</i>"
 
 # ---------
@@ -55,12 +56,17 @@ ORDER_1year  <- order(as.numeric(as.character(fw$Year)))
 overview     <- fw[ORDER_1year,]
 
 
-library(kableExtra)
-options(kableExtra.html.bsTable = TRUE)
-options(knitr.kable.NA = '_')
+#library(kableExtra)
+#options(kableExtra.html.bsTable = TRUE)
+#options(knitr.kable.NA = '_')
+#overview %>%
+#  kable(align=c("l","c","c","c","c","c","l")) %>%
+#  kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
+#  scroll_box(width = "80%", height = "200px", box_css = "border: 1px solid #FFFFFF;", fixed_thead = TRUE)
 
-overview %>%
-  kable(align=c("l","c","c","c","c","c","l")) %>%
-  kable_styling(bootstrap_options = c("striped", "hover","responsive"), font_size = 11) %>%
-  scroll_box(width = "100%", box_css = "border: 1px solid #FFFFFF;")
+library(DT)
+# pageLength: how many entries per page
+# dom: display only the filtering box and the table
+
+datatable(overview, options = list(pageLength = 50, dom = 'ft', scrollX = TRUE, fixedHeader = TRUE, scrollY = 400))
 ```
