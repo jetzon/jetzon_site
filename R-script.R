@@ -1,8 +1,6 @@
 blogdown::serve_site()
 blogdown::build_site()
 
-
-
 #### How to publish a new post #### 
 # --- Open Windows PowerShell --- 
 # change directory until you get to your blog:
@@ -22,7 +20,7 @@ git add .
 git commit -m "new table for fieldwork - pkg datatable"
 git push -u origin master
 
-cd sarigiering.github.io
+cd jetzon.github.io
 git add .
 git commit -m "new table for fieldwork - pkg datatable"
 git push -u origin master
