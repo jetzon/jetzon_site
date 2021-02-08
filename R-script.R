@@ -14,19 +14,17 @@ cd jetzon_site
 # Check connection:
 git remote -v
 
-#>destination     git@github.com:sari-giering/sari-giering.github.io.git (fetch)
-#>destination     git@github.com:sari-giering/sari-giering.github.io.git (push)
-#>origin  git@github.com:sari-giering/visible-ocean.git (fetch)
-#>origin  git@github.com:sari-giering/visible-ocean.git (push)
+#>origin  git@github.com:jetzon/jetzon.git (fetch)
+#>origin  git@github.com:jetzon/jetzon.git (push)
 
 # Stage and commit changes
 git add .
-git commit -m "new table for fieldwork - ocean decade"
+git commit -m "new table for fieldwork - pkg datatable"
 git push -u origin master
 
 cd sarigiering.github.io
 git add .
-git commit -m "new table for fieldwork - ocean decade"
+git commit -m "new table for fieldwork - pkg datatable"
 git push -u origin master
 cd..
 
