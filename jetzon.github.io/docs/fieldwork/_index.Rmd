@@ -49,7 +49,10 @@ leafMap
 ```
 <br>
 
-Details of past and upcoming JETZON fieldwork:
+### Details of past and upcoming JETZON fieldwork
+
+Key codes: B = bacteria, Z = zooplankton, F = fish, P = particles, D = DOM, C = Carbon, N = nutrients, M = metals, Fw = foodweb, H = higher predators.
+
 ```{r overview-table, echo=FALSE, warning=FALSE}
 # order by one year cruises
 ORDER_1year  <- order(as.numeric(as.character(fw$Year)))
