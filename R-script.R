@@ -27,6 +27,6 @@ git push -u origin master
 cd..
 
 # password:
-# G-teaparty
+# G-tea party
 
 # That should be it :)

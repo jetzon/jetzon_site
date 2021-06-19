@@ -27,7 +27,7 @@ Map of the distribution of stations across the global ocean.
 
 ## Links to other resources
 
-- <a href="https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0227166" target="_blank">
+- <a href="https://www.ncei.noaa.gov/access/ocean-carbon-data-system/oceans/ndp_109/ndp109.html" target="_blank">
 	NCEI data and metadata
 	</a>
 
