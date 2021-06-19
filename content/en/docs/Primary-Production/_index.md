@@ -1,7 +1,7 @@
 ---
 title: "Primary Production"
 linkTitle: "Primary Production"
-weight: 162
+weight: 11602
 date: 2019-12-04
 description: >
   An introduction to Net Primary Production

@@ -1,7 +1,7 @@
 ---
 title: "Marine Snow Catcher"
 linkTitle: "Marine Snow Catcher"
-weight: 130
+weight: 11301
 date: 2019-12-04
 description: >
   An introduction to the Marine Snow Catcher (MSC)

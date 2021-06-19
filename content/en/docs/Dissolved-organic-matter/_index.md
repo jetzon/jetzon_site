@@ -1,7 +1,7 @@
 ---
 title: "Dissolved organic matter"
 linkTitle: "Dissolved organic matter"
-weight: 162
+weight: 10401
 date: 2019-12-04
 description: >
   Compilation of dissolved organic matter (DOM) data obtained from global ocean observations from 1994 to 2020
@@ -21,7 +21,7 @@ While the focus of this compilation is largely on dissolved organic carbon (DOC)
 
 A very few data are included for biological variables such as bacterial abundance and chlorophyll a concentrations. These data, from approximately 14000 stations (map below), are from taken from 230 cruises, providing 94324 measures of DOC (full water column where available) and 29113 measures of TDN (limited to the surface 250 m).
 
-{{< imgproc dom_map Fill "605x323" >}}
+{{< imgproc dom_map Resize "600x" >}}
 Map of the distribution of stations across the global ocean.
 {{< /imgproc >}}
 

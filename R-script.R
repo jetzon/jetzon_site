@@ -17,13 +17,16 @@ git remote -v
 
 # Stage and commit changes
 git add .
-git commit -m "new table for fieldwork - pkg datatable"
+git commit -m "DOM page"
 git push -u origin master
 
 cd jetzon.github.io
 git add .
-git commit -m "new table for fieldwork - pkg datatable"
+git commit -m "DOM page"
 git push -u origin master
 cd..
+
+# password:
+# G-teaparty
 
 # That should be it :)

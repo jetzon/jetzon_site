@@ -1,7 +1,7 @@
 ---
 title: "Thorium-234"
 linkTitle: "Thorium-234"
-weight: 200
+weight: 12001
 date: 2020-01-13
 description: >
   An introduction to the use of Thorium-234 as a tracer of sinking particles in the ocean
