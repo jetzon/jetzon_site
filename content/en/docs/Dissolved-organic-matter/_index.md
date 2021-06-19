@@ -10,7 +10,7 @@ resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Map of the distribution of stations across the global ocean. Source: ODV."
+    byline: "Source: ODV."
 ---
 
 This compilation consists of measurements of dissolved organic matter (DOM) and other chemical and hydrographic parameters obtained during the global ocean observations from 1994-Jan-01 to 2019-Dec-31.
