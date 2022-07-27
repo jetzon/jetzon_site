@@ -1,14 +1,13 @@
 ---
 title: "JETZON Fieldwork"
-author: Sari Giering
-date: '2020-03-06'
+author: "Sari Giering"
+date: 2021-07-26
 slug: jetzon-fieldwork
 description: >
   Overview of JETZON fieldwork (past and planned)
 categories: []
 tags: []
 weight: 3
-# description: Map and list of past deployments
 ---
   
 This map shows the approximate regions of all past and upcoming JETZON fieldwork. To see cruise details, click on a marker, and information about the programme, cruise and contact person will pop up. Cruises from the same programme will show up in the same colour. More details can be found in the table below.

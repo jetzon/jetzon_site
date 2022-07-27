@@ -5,10 +5,10 @@ publishDir = "jetzon.github.io"
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+theme = "docsy"
 
 # Will give values to .Lastmod etc.
-enableGitInfo = true
+enableGitInfo = false
 
 # Language settings
 contentDir = "content/en"
@@ -29,7 +29,7 @@ pygmentsUseClassic = false
 pygmentsStyle = "tango"
 
 # ignore files
-# ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 # Configure how URLs look like per section.
 [permalinks]
